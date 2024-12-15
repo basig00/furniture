@@ -1,0 +1,127 @@
+*{
+    font-family: "Space Grotesk", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --x: rgb(206, 195, 30);
+}
+#main{
+    background-image: url(./images/HOME\ FUR\ PIC.jpg);
+    width: 100%;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+#BUTTON{
+    background-color: var(--x);
+    color: aliceblue;
+}
+#BUTTON :hover{
+    background-color: aliceblue;
+    color: var(--x);
+    border-color: var(--x);
+}
+@media (max-width: 992px){
+    .nav-item i {
+        display: none;
+    }
+}
+
+    
+
+
+#backg{
+    background-color: rgba(0, 0, 0, 0.385);
+    width: 100%;
+  /* height: 100vh;  */
+}
+#welcome{
+    margin-top: 20%;
+    margin-left: 6%;
+    color: aliceblue;
+}
+#welcome h4{
+    font-size: 40px;
+}
+#welcome h1{
+    font-size: 100px;
+}
+@media(max-width:600px){
+    #welcome h4{
+        font-size: 20px;
+    }
+    #welcome h1{
+        font-size: 40px;
+    }
+    
+}
+#welcome button{
+    border-color: aliceblue;
+    color: aliceblue;
+}
+
+
+#work{
+    background-image: url(./images/work\ cover\ pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    margin-top: 8%;
+    padding-top: 6%;
+}
+
+#viewbutton1 {
+    background-color: var(--x);
+    color: aliceblue;
+}
+#viewbutton1 :hover{}
+#hr{
+    background-color: var(--x);
+    width: 200px;
+    height: 7px;
+}
+ #about{
+    background-color: rgb(244, 225, 141);
+    padding-top: 7%;
+    padding-bottom: 5%;
+ }
+
+ #aboutDiv{
+    border: 7px solid var(--x);
+    width: 80%;
+    height: 490px;
+    padding-top: 4%;
+    padding-left: 4%;
+ }
+
+ #about p{
+    text-align: justify;
+ }
+
+
+
+ #div1{
+    background-color: rgba(13, 13, 13, 0.305);
+    width: 50%;
+    height: 6rem;
+    color: aliceblue;
+ }
+ #div2{
+    background-color: rgba(13, 13, 13, 0.305);
+    width: 50%;
+    height: 4rem;
+    color: aliceblue;
+ }
+ #div3{
+    background-color: rgba(13, 13, 13, 0.305);
+    width: 50%;
+    height: 4rem;
+    color: aliceblue;
+ }
